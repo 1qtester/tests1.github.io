@@ -1,0 +1,96 @@
+
+// .btm{
+// 	width: 250px;
+// 	height: 50px;
+// 	//background-color: black;
+// 	border: none;
+// 	cursor: pointer;
+// 	transition: 0.5s all;
+// 	&:hover{
+// 		background-color: rgb(155, 17, 155);
+// 		color: white;
+// 		&:active{
+// 			background-color: orange;
+// 		}
+// 		&:focus{
+// 			background-color: green;
+
+// 		}
+// 	}
+//   }
+//   .circle{
+
+// 	width: 50px;
+// 	height: 50px;
+// 	background-color: green;
+// 	border-radius: 100%;
+// 	margin-top: 10px;
+	
+// 	&:nth-child(2n){
+// 		background-color: red;
+// 	}
+// 	&::before{
+// 		content: '';
+// 		display: block;
+// 		height: 5px;
+// 		width: 0%;
+		
+// 		background-color: black;
+// 		transition: 0.5s all;
+// 	}
+// 	&:hover{
+
+	
+// 	   &::before{
+// 		width: 100%;
+// 	   }
+// 	}
+//   }
+
+// .container{
+// 	display: flex;
+// 	background-color: bisque;
+// 	margin-left: 145px;
+// 	padding-left: 60px;
+
+
+// 	.box{
+// 		margin-left: 65px;
+// 		background-color: aqua;
+// 		width: 200px;
+// 		height: 200px;
+// 	  }
+	
+// 	  .box2{
+// 		background-color: aqua;
+// 		width: 200px;
+// 		height: 200px;
+// 	  }
+	
+// }
+
+// // .con{
+// // 	position: relative;
+// // 	min-height: 250px
+// // 	background-color: aquamarine;
+// // 	&_hr{
+// // 		position: absolute;
+// // 		left: 50%;
+// // 		bottom: 50px;
+	
+// // 	}
+	
+// // }
+
+
+
+// .container{
+// 	text-align: center;
+// 	background-color: tomato;
+// 	border: 3px solid black;
+// }
+
+.contaner{
+	min-height: 100%;
+	background: url(../img/uber_bg.png) center (center / cover) no-repeat;
+}
